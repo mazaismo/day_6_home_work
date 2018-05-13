@@ -6,7 +6,19 @@ namespace day_6_home_work
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            
+            string y = Console.ReadLine();
+            int z = Convert.ToInt32(y);
+            
+            
+            for (int x = 1; x < 11; x++) 
+            {
+                Console.WriteLine(x * z);
+                
+            }
+
+
+
             Console.ReadLine();
         }
     }
